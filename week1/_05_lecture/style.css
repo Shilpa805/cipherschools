@@ -1,0 +1,40 @@
+*{
+   background-color: pink;
+  }
+  h1{
+    text-align: center;
+  }
+  #para1{
+    background-color: green;
+    color:  red;
+  }
+  
+  para1,para2,para3{
+    color: blue;
+  }
+  
+  div>p{    /*child selector*/
+    background-color: yellow;
+  }
+  
+  div+p{  /*adjacent Sibling selector*/
+    background-color: red;
+  }
+  
+  h3~h4{  /*general Sibling selector*/
+    background-color: rgba(37, 74, 197, 0.498);
+  }
+  
+  #hoverid:hover{  /*pseudo selector*/
+    background-color: black;
+    color: white;
+  }
+  
+  #hoverid::first-letter{   /*pseudo element sekector*/
+    color: rgb(255, 0, 0);
+  }
+  
+  
+  a[target]{
+    color: red;
+  }
